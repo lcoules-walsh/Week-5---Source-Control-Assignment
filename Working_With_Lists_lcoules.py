@@ -1,10 +1,11 @@
-courses = ["Introduction To Security", 
-           "Networks & Operating Systems", 
-           "Bus Communication Strategies", 
-           "Fund Of Cyber Security", 
-           "Server Virt & Perf Engine", 
-           "Ethical Hacking Strat & Tools"
-        ]
+courses = [
+       "Introduction To Security", 
+       "Networks & Operating Systems", 
+       "Bus Communication Strategies", 
+       "Fund Of Cyber Security", 
+       "Server Virt & Perf Engine", 
+       "Ethical Hacking Strat & Tools"
+    ]
 
 courses.sort()
 
@@ -23,3 +24,18 @@ print("\nThis is my course of study with upcoming courses added:")
 
 for course in courses:
     print(course)
+
+taken_courses = [
+       "Introduction To Security", 
+       "Networks & Operating Systems", 
+       "Bus Communication Strategies", 
+       "Fund Of Cyber Security", 
+       "Server Virt & Perf Engine", 
+       "Ethical Hacking Strat & Tools"
+    ]
+
+print("\nI do not have to take these courses:")
+
+for course in taken_courses:
+    print(course)
+    courses.remove(course)
