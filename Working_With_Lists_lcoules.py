@@ -3,4 +3,4 @@ courses = ["Introduction To Security", "Networks & Operating Systems", "Bus Comm
 courses.sort()
 
 for course in courses:
-    print(course)
+    print(f"I have taken {course.upper()} at Walsh College.")
