@@ -2,7 +2,7 @@
 #1 Creates a list of courses taken at Walsh College
 courses = [
        "introduction to security", 
-       "networks & operating Systems", 
+       "networks & operating systems", 
        "bus communication strategies", 
        "fund of cyber security", 
        "server virt & perf engine", 
@@ -36,7 +36,7 @@ taken_courses = [
        "networks & operating systems", 
        "bus communication strategies", 
        "fund of cyber security", 
-       "server virt & perf wngine", 
+       "server virt & perf engine", 
        "ethical hacking strat & tools"
     ]
 
