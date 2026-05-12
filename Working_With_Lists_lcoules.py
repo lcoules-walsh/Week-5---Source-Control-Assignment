@@ -39,3 +39,9 @@ print("\nI do not have to take these courses:")
 for course in taken_courses:
     print(course)
     courses.remove(course)
+
+print("\nI plan to take the following courses next term:")
+
+for course in courses:
+    print(course)
+
