@@ -58,3 +58,9 @@ for num in numbers[:20]:
 max_number = max(numbers)
 
 print(f"\nThe maximum value  in this list is: {max_number}")
+
+sum_values = sum(numbers[9:50])
+
+print(f"\nHere is the sum of several values in the list: {sum_values}")
+
+courses = numbers
