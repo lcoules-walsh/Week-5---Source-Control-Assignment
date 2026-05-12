@@ -54,3 +54,7 @@ print("\nHere are twenty numbers divisible by 6.")
 
 for num in numbers[:20]:
     print(num)
+
+max_number = max(numbers)
+
+print(f"\nThe maximum value  in this list is: {max_number}")
