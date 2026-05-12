@@ -45,3 +45,12 @@ print("\nI plan to take the following courses next term:")
 for course in courses:
     print(course)
 
+numbers = []
+for num in range(1, 1001):
+    if num % 6 == 0:
+        numbers.append(num)
+
+print("\nHere are twenty numbers divisible by 6.")
+
+for num in numbers[:20]:
+    print(num)
