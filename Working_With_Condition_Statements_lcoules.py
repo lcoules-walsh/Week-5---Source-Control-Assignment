@@ -58,10 +58,20 @@ for salary in employee_salaries:
 print("\nTotal Hourly Rates (including benefits):")
 print(total_hourly_rates)
 
-#4 Checks for budget concerns
+# 4 Checks for budget concerns
 
 max_rate = max(total_hourly_rates)
 
 if max_rate > 37.30:
     print("\nBudget concern: The highest total hourly rate exceeds the budget limit of $37.30.")
 
+# 5 Find underpaid salaries
+
+underpaid_salaries = []
+
+for rate in total_hourly_rates:
+    if 28.15 <= rate <= 30.65:
+        underpaid_salaries.append(rate)
+
+print("\nUnderpaid Salaries:")
+print(underpaid_salaries)
