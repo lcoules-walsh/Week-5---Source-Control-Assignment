@@ -75,3 +75,26 @@ for rate in total_hourly_rates:
 
 print("\nUnderpaid Salaries:")
 print(underpaid_salaries)
+
+# 6 Calculates company raises
+
+company_raises = []
+
+for salary in employee_salaries:
+    if 22 <= salary <= 24:
+        new_salary = salary * 1.05
+
+    elif 24 < salary <= 26:
+        new_salary = salary * 1.04
+
+    elif 26 < salary <= 28:
+        new_salary = salary * 1.03
+
+    else:
+        new_salary = salary * 1.02
+
+    company_raises.append(round(new_salary, 2))
+
+print("\nCompany Raises:")
+print(company_raises)
+
