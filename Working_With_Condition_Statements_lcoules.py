@@ -98,3 +98,12 @@ for salary in employee_salaries:
 print("\nCompany Raises:")
 print(company_raises)
 
+# 7 Complex conditions with 4 truth tests
+
+# 1. More than 5 employee numbers
+# 2. More than 5 employee names
+# 3. Maximum total hourly rate exceeds $30
+# 4. At least 1 underpaid salary
+
+if len(employee_numbers) > 5 and len(employee_names) > 5 and max_rate > 30 and len(underpaid_salaries) >= 1:
+    print("\nCompany employee and salary data processed successfully with multiple conditions met.")
