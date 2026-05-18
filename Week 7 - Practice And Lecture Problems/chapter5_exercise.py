@@ -76,3 +76,20 @@ elif len(favorite_fruit) == 4:
 else:
     print("You like several fruits")
 
+# 5-5
+
+numbers = list(range(1, 56))
+
+number_a = 25
+number_b = 70
+
+if number_a in numbers:
+    print(str(number_a) + " is in the list of numbers")
+else:
+    print(str(number_a) + " is not in the list of numbers")
+
+if number_b in numbers:
+    print(str(number_b) + " is in the list of numbers")
+else:
+    print(str(number_b) + " is not in the list of numbers")
+
