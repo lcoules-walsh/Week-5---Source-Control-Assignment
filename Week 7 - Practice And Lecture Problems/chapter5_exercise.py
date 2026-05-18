@@ -93,3 +93,14 @@ if number_b in numbers:
 else:
     print(str(number_b) + " is not in the list of numbers")
 
+# 5-6
+
+favorite_stores = ["Walmart", "Target", "Costco", "Best Buy"]
+
+stores_running_sales = ["Target", "Amazon", "Best Buy"]
+
+for store in favorite_stores:
+    if store in stores_running_sales:
+        print(store + " is running a sale!")
+    else:
+        print(store + " is not running a sale.")
