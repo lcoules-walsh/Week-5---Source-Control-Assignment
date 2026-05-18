@@ -60,3 +60,19 @@ else:
     number4 += 1
     print(number4)
 
+# 5-4
+
+favorite_fruit = ["apple", "banana", "orange", "grape"]
+
+if len(favorite_fruit) == 2:
+    print("You like two fruits")
+
+elif len(favorite_fruit) == 3:
+    print("You like three fruits")
+
+elif len(favorite_fruit) == 4:
+    print("You like four fruits")
+
+else:
+    print("You like several fruits")
+
